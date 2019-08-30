@@ -13,7 +13,6 @@ fetch("http://localhost:8088/restaurants")
 
 const foodContainer = document.querySelector(".foodList")
 
-
 //Create the string for the HTML    
 
 function createFoodHTML(food) {
@@ -35,8 +34,6 @@ function createFoodHTML(food) {
 function addFoodToDom(htmlString) {
     foodContainer.innerHTML += htmlString
 }
-
-
 
 
 fetch("http://localhost:8088/food")
